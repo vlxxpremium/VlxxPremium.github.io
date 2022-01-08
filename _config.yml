@@ -7,32 +7,43 @@ safe: false
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
-permalink: /:title ## disables post output
+permalink: / ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
+highlighter: pygments
 
 
 ### content configuration ###
-title:       "SinglePaged - Simple Jekyll template"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
-favicon:     "img/favicon.ico"
-touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+title:
+keywords:
+description:
+source_link:
+favicon:
+touch_icon:
+google_analytics_key:
 
 
 ### template colors, used site-wide via css ###
 colors:
-  black:     '#111111'
-  white:     '#f8f8f8'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#c869bf'
-  orange:    '#fab125'
-  turquoise: '#0fbfcf'
-
-kramdown:
-  auto_ids:  false
-
+  black:
+    light: '#303030'
+    dark: '#111111'
+  white:
+    light: '#f5f5f5'
+    dark: '#f8f8f8'
+  blue:
+    light: '#3c9eec'
+    dark: '#49a7e9'
+  green:
+    light: '#a3d832'
+    dark: '#9bcf2f'
+  purple:
+    light: '#c869bf'
+    dark: '#c869bf'
+  orange:
+    light: '#faaf22'
+    dark: '#fab125'
+  turquoise:
+    light: '#0fbfcf'
+    dark: '#0fbfcf'
